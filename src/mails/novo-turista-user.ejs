@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Novo Turista Usuário</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+      body {
+        margin: 0;
+        padding: 0;
+        min-width: 100%;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        background: #fafafa;
+        color: #222222;
+      }
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+      h1 {
+        font-size: 24;
+        font-weight: 700;
+        line-height: 1.25;
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: center;
+        color: #fff;
+      }
+      p {
+        margin-top: 0;
+        margin-bottom: 24px;
+      }
+      table td {
+        vertical-align: top;
+      }
+      .gugi-regular {
+        font-family: "Gugi", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 28px;
+      }
+      .email-wrapper {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .email-header {
+        background-color: #1f233a;
+        padding: 24px;
+      }
+      .email-body {
+        background-color: #ffffff;
+        padding: 24px;
+      }
+      .email-body-doubt {
+        width: 100%;
+      }
+      .email-body-doubt img {
+        object-fit: cover;
+        width: 200px;
+      }
+      .email-footer {
+        background-color: #f6f6f6;
+        padding: 24px;
+      }
+      .email-footer div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .email-footer div span {
+        font-size: 0.8em;
+      }
+      .button {
+        display: inline-block;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: none;
+        padding: 12px 24px;
+        border-radius: 4px;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      table,
+      tr,
+      td {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-wrapper">
+      <div class="email-header">
+        <h1 class="gugi-regular">Enjoy São Leopoldo</h1>
+      </div>
+      <div class="email-body">
+        <p>Turista, <%= firstName %>!</p>
+        <p style="margin-top: -20px">
+          Seja Bem- Vindo ao Enjoy São Leopoldo! Nós ficamos felizes em tê-lo conosco! =)
+        </p>
+        <p>
+          Se prepare para ter acesso a infinitas oportunidades que o nosso programa de
+          relacionamento irá te proporcionar, com muitas experiências. Um forte abraço da equipe Enjoy São Leopoldo!
+        </p>
+        <p>Por favor, aguarde. Nosso especialista entrará em contato</p>
+        </br>
+      </div>
+      <div class="email-footer">
+        <div></div>
+      </div>
+    </div>
+  </body>
+</html>
